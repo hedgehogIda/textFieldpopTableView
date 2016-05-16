@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>高压供电系统</key>
+	<array>
+		<string>受电弓无法升起故障</string>
+		<string>受电弓 63C0 故障</string>
+		<string>受电弓 63C2 故障</string>
+		<string>主断路器无法闭合</string>
+		<string>主断路器锁闭</string>
+		<string>车顶隔离开关锁闭</string>
+		<string>主变压器故障 635A、634B、631F</string>
+		<string>网压不稳定 63E2（CRH380BL 为 63E3）、63E4 故障</string>
+		<string>网侧过电流（6CA0）</string>
+		<string>主断无法闭合（28F7）</string>
+		<string>变压器保护（634E）</string>
+	</array>
+	<key>牵引传动系统</key>
+	<array>
+		<string>牵引电机轴承过热（267B、2679）</string>
+		<string>齿轮箱温度异常（2684、2685）</string>
+		<string>牵引丢失(2672、 2675、 2687、 2688、 2689、 269B、 24D6、 24D7、 2691、 268E、26C0、26C1、2695、2937、2938、2716)
+26C1、2695、2937、2938、271)</string>
+		<string>牵引丢失（20B5、21B0、、2253）</string>
+		<string>牵引系统接地故障（25EF）</string>
+		<string>牵引锁闭（6373）</string>
+		<string>牵引故障（20B6）</string>
+		<string>单车牵引力减少（283C）</string>
+	</array>
+	<key>辅助供电系统</key>
+	<array>
+		<string>ACU不工作</string>
+		<string>充电机无法激活 </string>
+		<string>BN1供电失效</string>
+		<string>HMI 屏报 6506：BN1 应急供电系统空开 MCB 32-F45 关断</string>
+		<string>3KV 隔离开关故障（6448）</string>
+		<string>单车 BN1 紧急供电失效</string>
+	</array>
+	<key>网络控制系统</key>
+	<array>
+		<string>司机室单个 HMI 屏黑屏或显示无列车数据</string>
+		<string>司机室 HMI 自动重启</string>
+		<string>司机室 HMI 指示灯同时闪烁 </string>
+		<string>HMI 屏部分车门短暂显示“ ？” </string>
+		<string>HMI 上单个 BCU 显示“ ？”</string>
+		<string>HMI 屏上一个牵引单元的车门或制动单元长时间显示“？”</string>
+		<string>单个 HMI 屏上全列的车门或制动单元长时间显示“？”</string>
+		<string>单个 CCU 失效（诊断代码 6042 或 6052）</string>
+		<string>牵引单元内的两个 CCU 均失效（诊断代码 6042 和 6052）</string>
+		<string>司机室占用不成功</string>
+		<string>监控室 HMI 屏通讯故障或黑屏</string>
+	</array>
+	<key>制动及供风系统</key>
+	<array>
+		<string>停放制动无法缓解</string>
+		<string>紧急制动不缓解</string>
+		<string>常用制动不缓解</string>
+		<string>雨刷故障</string>
+		<string>BCU 电源故障（6583）</string>
+		<string>BCU 电源故障（658A）</string>
+		<string>BCU 故障（173F、1749、176D、1768）</string>
+		<string>BCU 故障（68C5、6157、6163、6171、6180）</string>
+		<string>防滑器排风阀故障 </string>
+		<string>制动力高低阶转换故障（170C、170D）</string>
+		<string>常用制动失效（1610、1810、1617、1817、6400）</string>
+		<string>常用制动软管断裂 </string>
+		<string>摩擦制动未缓解（1775）</string>
+		<string>直接制动控制故障（1729）</string>
+		<string>异常紧急制动（66DB、66DC）故障 与紧急制动不缓解合并</string>
+		<string>停放制动故障</string>
+		<string>停放制动监控环路故障（670F）</string>
+		<string>列车已经移动而停放制动未缓解（1738）</string>
+		<string>制动板卡 A5 故障（1747）</string>
+		<string>制动板卡 A6 故障（1748）</string>
+		<string>超过 24 小时未进行制动试验（194D）</string>
+		<string>车组动车后报 636B 故障</string>
+		<string>安全环路控制继电器故障（6791、678D、6159、1610）</string>
+		<string>安全环路控制继电器故障（6795）</string>
+		<string>安全环路控制继电器故障（6799）</string>
+		<string>安全环路控制继电器故障（679D、67A1)</string>
+		<string>安全环路控制继电器故障(66EB）</string>
+		<string>转向架监控回路继电器故障（673B）</string>
+		<string>HMI 屏不显示制动试验时间（无故障代码）</string>
+		<string>紧急制动 EB 不缓解（TX）</string>
+		<string>紧急制动 UB 不缓解（TX）</string>
+	</array>
+	<key>转向架 </key>
+	<array>
+		<string>轴不旋转 68C8、6B0E、6B0C、6B12、19DX、2F8X</string>
+		<string>防滑器速度传感器故障(1736)</string>
+		<string>转向架横向加速度传感器故障（1734、1735、68C5）</string>
+		<string>转向架横向加速度监控报警（68C9）</string>
+		<string>热轴预警（6B2E、6B32、6B36、6B3A、6B3E、6B42、6B46、6B4A）</string>
+		<string>热轴报警（68C7，6B4E、6B52、6B56、6B5A、6B5E、6B62、6B66、6B6A）</string>
+		<string>至少一个轮对轴承温度传感器故障</string>
+		<string>转向架空气悬挂压力过低（174E、174F）</string>
+	</array>
+	<key>空调系统故障应急处理办法</key>
+	<array>
+		<string>司机室空调系统故障</string>
+		<string>客室空调系统故障</string>
+	</array>
+	<key>旅客信息系统 </key>
+	<array>
+		<string>PIS 故障</string>
+	</array>
+	<key>车体及车端连接系统</key>
+	<array>
+		<string>开闭机构故障</string>
+		<string>车钩故障（69BF）</string>
+		<string>CRH380B 车钩及开闭机构漏风故障应急处理办法</string>
+	</array>
+	<key>车内设施</key>
+	<array>
+		<string>集控关门时车门未关闭</string>
+		<string>集控关门按钮失效</string>
+		<string>运行途中报车门故障</string>
+		<string>车门集控开门时不能打开</string>
+		<string>站台停车时车门不受控自动关闭</string>
+		<string>牵引-门联锁应急处理办法</string>
+		<string>卫生间便器堵塞</string>
+		<string>卫生间供风软管破损</string>
+		<string>厨房系统漏水</string>
+		<string>厨房系统火灾指示灯亮</string>
+		<string>座椅音频系统、影视系统、电源插座、座椅电机无电故障</string>
+		<string>VIP 座椅运动故障</string>
+		<string>VIP 座椅旋转故障</string>
+		<string>受电弓摄像头显示屏故障</string>
+	</array>
+	<key>行车安全设备</key>
+	<array>
+		<string>火灾报警</string>
+		<string>外部照明灯控器故障</string>
+		<string>EOAS 系统主机故障</string>
+	</array>
+</dict>
+</plist>

@@ -15,6 +15,7 @@
 		EA36EBB11CEA25520093E264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA36EBAF1CEA25520093E264 /* LaunchScreen.storyboard */; };
 		EA36EBBC1CEA25520093E264 /* TextFieldPopTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBBB1CEA25520093E264 /* TextFieldPopTableViewTests.m */; };
 		EA36EBC71CEA25520093E264 /* TextFieldPopTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBC61CEA25520093E264 /* TextFieldPopTableViewUITests.m */; };
+		EA36EBD51CEA264F0093E264 /* faultdic.plist in Resources */ = {isa = PBXBuildFile; fileRef = EA36EBD41CEA264F0093E264 /* faultdic.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EA36EBC21CEA25520093E264 /* TextFieldPopTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldPopTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA36EBC61CEA25520093E264 /* TextFieldPopTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldPopTableViewUITests.m; sourceTree = "<group>"; };
 		EA36EBC81CEA25520093E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA36EBD41CEA264F0093E264 /* faultdic.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = faultdic.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				EA36EBAD1CEA25520093E264 /* Assets.xcassets */,
 				EA36EBAF1CEA25520093E264 /* LaunchScreen.storyboard */,
 				EA36EBB21CEA25520093E264 /* Info.plist */,
+				EA36EBD41CEA264F0093E264 /* faultdic.plist */,
 				EA36EBA11CEA25520093E264 /* Supporting Files */,
 			);
 			path = TextFieldPopTableView;
@@ -243,6 +246,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA36EBD51CEA264F0093E264 /* faultdic.plist in Resources */,
 				EA36EBB11CEA25520093E264 /* LaunchScreen.storyboard in Resources */,
 				EA36EBAE1CEA25520093E264 /* Assets.xcassets in Resources */,
 				EA36EBAC1CEA25520093E264 /* Main.storyboard in Resources */,
