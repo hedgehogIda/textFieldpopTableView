@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA36EBA31CEA25520093E264 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBA21CEA25520093E264 /* main.m */; };
+		EA36EBA61CEA25520093E264 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBA51CEA25520093E264 /* AppDelegate.m */; };
+		EA36EBA91CEA25520093E264 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBA81CEA25520093E264 /* ViewController.m */; };
+		EA36EBAC1CEA25520093E264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA36EBAA1CEA25520093E264 /* Main.storyboard */; };
+		EA36EBAE1CEA25520093E264 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA36EBAD1CEA25520093E264 /* Assets.xcassets */; };
+		EA36EBB11CEA25520093E264 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA36EBAF1CEA25520093E264 /* LaunchScreen.storyboard */; };
+		EA36EBBC1CEA25520093E264 /* TextFieldPopTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBBB1CEA25520093E264 /* TextFieldPopTableViewTests.m */; };
+		EA36EBC71CEA25520093E264 /* TextFieldPopTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA36EBC61CEA25520093E264 /* TextFieldPopTableViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA36EBB81CEA25520093E264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA36EB961CEA25520093E264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA36EB9D1CEA25520093E264;
+			remoteInfo = TextFieldPopTableView;
+		};
+		EA36EBC31CEA25520093E264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA36EB961CEA25520093E264 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA36EB9D1CEA25520093E264;
+			remoteInfo = TextFieldPopTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA36EB9E1CEA25520093E264 /* TextFieldPopTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextFieldPopTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA36EBA21CEA25520093E264 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA36EBA41CEA25520093E264 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA36EBA51CEA25520093E264 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA36EBA71CEA25520093E264 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA36EBA81CEA25520093E264 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA36EBAB1CEA25520093E264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA36EBAD1CEA25520093E264 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA36EBB01CEA25520093E264 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA36EBB21CEA25520093E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA36EBB71CEA25520093E264 /* TextFieldPopTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldPopTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA36EBBB1CEA25520093E264 /* TextFieldPopTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldPopTableViewTests.m; sourceTree = "<group>"; };
+		EA36EBBD1CEA25520093E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA36EBC21CEA25520093E264 /* TextFieldPopTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextFieldPopTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA36EBC61CEA25520093E264 /* TextFieldPopTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextFieldPopTableViewUITests.m; sourceTree = "<group>"; };
+		EA36EBC81CEA25520093E264 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA36EB9B1CEA25520093E264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36EBB41CEA25520093E264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36EBBF1CEA25520093E264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA36EB951CEA25520093E264 = {
+			isa = PBXGroup;
+			children = (
+				EA36EBA01CEA25520093E264 /* TextFieldPopTableView */,
+				EA36EBBA1CEA25520093E264 /* TextFieldPopTableViewTests */,
+				EA36EBC51CEA25520093E264 /* TextFieldPopTableViewUITests */,
+				EA36EB9F1CEA25520093E264 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA36EB9F1CEA25520093E264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA36EB9E1CEA25520093E264 /* TextFieldPopTableView.app */,
+				EA36EBB71CEA25520093E264 /* TextFieldPopTableViewTests.xctest */,
+				EA36EBC21CEA25520093E264 /* TextFieldPopTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA36EBA01CEA25520093E264 /* TextFieldPopTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EA36EBA41CEA25520093E264 /* AppDelegate.h */,
+				EA36EBA51CEA25520093E264 /* AppDelegate.m */,
+				EA36EBA71CEA25520093E264 /* ViewController.h */,
+				EA36EBA81CEA25520093E264 /* ViewController.m */,
+				EA36EBAA1CEA25520093E264 /* Main.storyboard */,
+				EA36EBAD1CEA25520093E264 /* Assets.xcassets */,
+				EA36EBAF1CEA25520093E264 /* LaunchScreen.storyboard */,
+				EA36EBB21CEA25520093E264 /* Info.plist */,
+				EA36EBA11CEA25520093E264 /* Supporting Files */,
+			);
+			path = TextFieldPopTableView;
+			sourceTree = "<group>";
+		};
+		EA36EBA11CEA25520093E264 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA36EBA21CEA25520093E264 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA36EBBA1CEA25520093E264 /* TextFieldPopTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA36EBBB1CEA25520093E264 /* TextFieldPopTableViewTests.m */,
+				EA36EBBD1CEA25520093E264 /* Info.plist */,
+			);
+			path = TextFieldPopTableViewTests;
+			sourceTree = "<group>";
+		};
+		EA36EBC51CEA25520093E264 /* TextFieldPopTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA36EBC61CEA25520093E264 /* TextFieldPopTableViewUITests.m */,
+				EA36EBC81CEA25520093E264 /* Info.plist */,
+			);
+			path = TextFieldPopTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA36EB9D1CEA25520093E264 /* TextFieldPopTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA36EBCB1CEA25520093E264 /* Build configuration list for PBXNativeTarget "TextFieldPopTableView" */;
+			buildPhases = (
+				EA36EB9A1CEA25520093E264 /* Sources */,
+				EA36EB9B1CEA25520093E264 /* Frameworks */,
+				EA36EB9C1CEA25520093E264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextFieldPopTableView;
+			productName = TextFieldPopTableView;
+			productReference = EA36EB9E1CEA25520093E264 /* TextFieldPopTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA36EBB61CEA25520093E264 /* TextFieldPopTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA36EBCE1CEA25520093E264 /* Build configuration list for PBXNativeTarget "TextFieldPopTableViewTests" */;
+			buildPhases = (
+				EA36EBB31CEA25520093E264 /* Sources */,
+				EA36EBB41CEA25520093E264 /* Frameworks */,
+				EA36EBB51CEA25520093E264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA36EBB91CEA25520093E264 /* PBXTargetDependency */,
+			);
+			name = TextFieldPopTableViewTests;
+			productName = TextFieldPopTableViewTests;
+			productReference = EA36EBB71CEA25520093E264 /* TextFieldPopTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA36EBC11CEA25520093E264 /* TextFieldPopTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA36EBD11CEA25520093E264 /* Build configuration list for PBXNativeTarget "TextFieldPopTableViewUITests" */;
+			buildPhases = (
+				EA36EBBE1CEA25520093E264 /* Sources */,
+				EA36EBBF1CEA25520093E264 /* Frameworks */,
+				EA36EBC01CEA25520093E264 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA36EBC41CEA25520093E264 /* PBXTargetDependency */,
+			);
+			name = TextFieldPopTableViewUITests;
+			productName = TextFieldPopTableViewUITests;
+			productReference = EA36EBC21CEA25520093E264 /* TextFieldPopTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA36EB961CEA25520093E264 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "实信腾";
+				TargetAttributes = {
+					EA36EB9D1CEA25520093E264 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EA36EBB61CEA25520093E264 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA36EB9D1CEA25520093E264;
+					};
+					EA36EBC11CEA25520093E264 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA36EB9D1CEA25520093E264;
+					};
+				};
+			};
+			buildConfigurationList = EA36EB991CEA25520093E264 /* Build configuration list for PBXProject "TextFieldPopTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA36EB951CEA25520093E264;
+			productRefGroup = EA36EB9F1CEA25520093E264 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA36EB9D1CEA25520093E264 /* TextFieldPopTableView */,
+				EA36EBB61CEA25520093E264 /* TextFieldPopTableViewTests */,
+				EA36EBC11CEA25520093E264 /* TextFieldPopTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA36EB9C1CEA25520093E264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA36EBB11CEA25520093E264 /* LaunchScreen.storyboard in Resources */,
+				EA36EBAE1CEA25520093E264 /* Assets.xcassets in Resources */,
+				EA36EBAC1CEA25520093E264 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36EBB51CEA25520093E264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36EBC01CEA25520093E264 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA36EB9A1CEA25520093E264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA36EBA91CEA25520093E264 /* ViewController.m in Sources */,
+				EA36EBA61CEA25520093E264 /* AppDelegate.m in Sources */,
+				EA36EBA31CEA25520093E264 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36EBB31CEA25520093E264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA36EBBC1CEA25520093E264 /* TextFieldPopTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA36EBBE1CEA25520093E264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA36EBC71CEA25520093E264 /* TextFieldPopTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA36EBB91CEA25520093E264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA36EB9D1CEA25520093E264 /* TextFieldPopTableView */;
+			targetProxy = EA36EBB81CEA25520093E264 /* PBXContainerItemProxy */;
+		};
+		EA36EBC41CEA25520093E264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA36EB9D1CEA25520093E264 /* TextFieldPopTableView */;
+			targetProxy = EA36EBC31CEA25520093E264 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA36EBAA1CEA25520093E264 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA36EBAB1CEA25520093E264 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA36EBAF1CEA25520093E264 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA36EBB01CEA25520093E264 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA36EBC91CEA25520093E264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA36EBCA1CEA25520093E264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA36EBCC1CEA25520093E264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldPopTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ida.TextFieldPopTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA36EBCD1CEA25520093E264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextFieldPopTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ida.TextFieldPopTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA36EBCF1CEA25520093E264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFieldPopTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ida.TextFieldPopTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldPopTableView.app/TextFieldPopTableView";
+			};
+			name = Debug;
+		};
+		EA36EBD01CEA25520093E264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TextFieldPopTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ida.TextFieldPopTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextFieldPopTableView.app/TextFieldPopTableView";
+			};
+			name = Release;
+		};
+		EA36EBD21CEA25520093E264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextFieldPopTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ida.TextFieldPopTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextFieldPopTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA36EBD31CEA25520093E264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TextFieldPopTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ida.TextFieldPopTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TextFieldPopTableView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA36EB991CEA25520093E264 /* Build configuration list for PBXProject "TextFieldPopTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA36EBC91CEA25520093E264 /* Debug */,
+				EA36EBCA1CEA25520093E264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA36EBCB1CEA25520093E264 /* Build configuration list for PBXNativeTarget "TextFieldPopTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA36EBCC1CEA25520093E264 /* Debug */,
+				EA36EBCD1CEA25520093E264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA36EBCE1CEA25520093E264 /* Build configuration list for PBXNativeTarget "TextFieldPopTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA36EBCF1CEA25520093E264 /* Debug */,
+				EA36EBD01CEA25520093E264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA36EBD11CEA25520093E264 /* Build configuration list for PBXNativeTarget "TextFieldPopTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA36EBD21CEA25520093E264 /* Debug */,
+				EA36EBD31CEA25520093E264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA36EB961CEA25520093E264 /* Project object */;
+}
